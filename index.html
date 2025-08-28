@@ -9,26 +9,31 @@
       rel="stylesheet"
       type="text/css"
     />
-
+    <link rel="stylesheet" href="./style.css" />
     <title>Emergency Service</title>
   </head>
-  <body>
-    <header class="navbar flex justify-between h-[100px]">
-      <div class="logo">
+  <body class="mx-10">
+    <header class="navbar flex justify-between h-[100px] items-center">
+      <div class="logo flex items-center gap-4">
         <img src="./assets/logo.png" />
-        <h2>Emergency Service</h2>
+        <h2 class="font-extrabold text-[#006747] font-bold text-[24px]">Emergency </br>Service</h2>
+        
       </div>
-      <div class="right">
-        <div>
+      <div class="right flex justify-around gap-5">
+        <div
+          class="flex items-center justify-center gap-3 bg-[#41ff6a29]  rounded-3xl"
+        >
           <h1 id="life">0</h1>
           <img src="./assets/heart.png" />
         </div>
-        <div>
+        <div
+          class="flex justify-center items-center justify-center gap-3 bg-[#41ff6a29] rounded-3xl"
+        >
           <h2 id="coin">100</h2>
           <img src="./assets/coin.png" />
         </div>
-        <div class="">
-          <button class="btn">Copy</button>
+        <div class="flex items-center">
+          <button class="btn" id="button">Copy</button>
         </div>
       </div>
     </header>

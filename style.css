@@ -1,0 +1,23 @@
+.right img {
+  height: 30px;
+  width: 30px;
+}
+.logo img {
+  height: 50px;
+  width: 50px;
+}
+.right div {
+  width: 123px;
+  height: 52px;
+  font-size: large;
+  font-weight: bold;
+}
+.btn {
+  width: 127px;
+  height: 52px;
+  background-color: #00a63e;
+  border-radius: 50px;
+  color: white;
+  font-weight: bold;
+  font-size: large;
+}
