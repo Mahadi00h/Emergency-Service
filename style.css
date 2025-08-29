@@ -65,10 +65,18 @@ body {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+.service-card {
+  transition: transform 0.3s ease;
+}
+.service-card:hover {
+  transform: scale(1.1);
+  background: linear-gradient(45deg, rgb(244, 239, 230), #ffe6ea);
+}
+
 .service-header {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   margin-bottom: 8px;
 }
 
@@ -81,12 +89,13 @@ body {
 
 .service-info .number {
   margin: 4px 0 0 0;
-  font-size: 16px;
-  color: #666;
+  font-size: 20px;
+  color: seagreen;
+  font-weight: 700;
 }
 
 .timestamp {
-  font-size: 16px;
+  font-size: 20px;
   color: #333;
-  font-weight: 500;
+  font-weight: 800;
 }
