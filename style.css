@@ -55,3 +55,38 @@
 body {
   font-family: "Hind Madurai", sans-serif;
 }
+.call-history-entry {
+  margin-top: 20px;
+  background-color: white;
+  border: 2px solid #616467;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.service-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 8px;
+}
+
+.service-info h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.service-info .number {
+  margin: 4px 0 0 0;
+  font-size: 16px;
+  color: #666;
+}
+
+.timestamp {
+  font-size: 16px;
+  color: #333;
+  font-weight: 500;
+}
